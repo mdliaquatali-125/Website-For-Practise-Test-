@@ -1,0 +1,131 @@
+﻿*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+header{
+    display:flex;
+    height:100px;
+    /*border:02px solid red;*/
+    /*justify-content:space-between;*/
+    justify-content:space-around;
+    padding-top:30px;
+
+}
+#nav-bar ul li{
+    list-style-type:none;
+}
+#nav-bar ul{
+    display:flex;
+}
+#nav-bar ul li{
+    margin-right:20px;
+    font-size:25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#logo{
+    font-size:30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a{
+    text-decoration:none;
+}
+#nav-bar ul li a{
+    color:black;
+}
+.pakclr{
+    color:dimgray;
+}
+#everclr{
+    color:red;
+}
+#nav-bar ul li a:hover{
+    background-color:dimgrey;
+    padding:20px 0px;
+}
+#slider img{
+    width:100%;
+    height:700px;
+}
+#aboutPEZG{
+    /*border:2px solid red;*/
+    text-align:center;
+    height:200px;
+    padding:60px 20% 90px;
+}
+#pezServices{
+    /*border:02px solid red;*/
+    /*height:500px;*/
+    width:80%;
+    margin:20px auto;
+    display:flex;
+    justify-content:space-between;
+    padding:20px;
+}
+section h1{
+    text-align:center;
+    font-size:50px;
+}
+.sercontainer{
+    border:02px solid black;
+    /*height:30px;*/
+    width:30%;
+    display:flex;
+    flex-direction:column;
+}
+.sercontainer div{
+    /*border:01px solid red;*/
+    background-color:#e8e5e5;
+    /*width:30%;*/
+    padding:5px;
+}
+.sercontimg img{
+    width:100%;
+    height:200px;
+}
+.serconhead p{
+    font-size:30px;
+    font-family:Arial;
+}
+.sercondis p{
+    font-size:20px;
+    text-align:justify;
+}
+.serconbtn a{
+    font-size:30px;
+    font-family:Arial;
+    color:white;
+    background-color:#b2b3b4;
+    padding:5px;
+    display:block;
+}
+.serconbtn a:hover{
+     color:#b2b3b4;
+    background-color:white;
+}
+/*#contactform{
+    border:02px solid green;
+    margin:30px auto;
+    width:70%;
+padding:50px;
+}*/
+
+/*#contactform input[type="text"],input[type="email"],input[type="number"]
+{
+    /*margin:5px 0px;
+    width:80%;
+    height:50px;
+}*/
+footer p{
+    background-color:#353334;
+    padding:20px;
+    font-size:25px;
+    color:white;
+    text-align:center;
+}
+footer p a{
+    color:white;
+}
+footer p a:hover{
+    color:black;
+}
